@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="8.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AklaMeal"></android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="order"
+        android:textColor="#0400ff"
+        android:textStyle="bold"
+        android:background="#ffb217"
+        android:id="@+id/idorder"/>
+
+</LinearLayout>

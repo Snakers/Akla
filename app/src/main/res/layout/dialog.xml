@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:background="#ebffce2c">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="My Profile"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    style="@style/Base.Animation.AppCompat.Dialog"
+    android:background="#2902ff"
+    />
+
+
+    <com.loopj.android.image.SmartImageView
+       android:adjustViewBounds="true"
+android:tintMode="multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:background="#1062b4"
+        android:id="@+id/dialogimage"
+        android:layout_gravity="center_horizontal"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:id="@+id/emaily"
+        android:textColor="#1d42bc"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1d42bc"
+        android:textStyle="bold"
+android:layout_gravity="center_horizontal"
+        android:id="@+id/namey"/>
+
+</LinearLayout>

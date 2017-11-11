@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shatterplay.snakers.akla.LoginPageTwo">
+
+
+    <EditText
+        android:id="@+id/phone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="11"
+        android:inputType="phone"
+
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Phone Number"
+        />
+    <Button
+        android:background="#e1f94200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone2"
+        android:id="@+id/confirm"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm"
+
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/adress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/phone2"
+
+        android:layout_centerHorizontal="true"
+        android:ems="255"
+        android:inputType="textPostalAddress"
+android:hint="Please Enter Your Adress"
+        android:gravity="center"/>
+
+</RelativeLayout>
